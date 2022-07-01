@@ -1,0 +1,45 @@
+html {
+  font-family: "Arial", sans-serif, serif;
+}
+
+form {
+  width: 90%;
+  margin: 1rem auto;
+  background-color: rgb(193, 225, 225);
+  border-radius: 8px;
+}
+
+.control {
+  padding: 1rem 1rem;
+}
+label {
+  display: block;
+  margin-bottom: 0.5rem;
+}
+
+span {
+  padding-left: 1rem;
+}
+
+span.warning {
+  color: orange;
+}
+
+input {
+  font: inherit;
+  width: 80%;
+}
+
+input.warning {
+  background-color: orange;
+}
+
+button {
+  border: none;
+  border-radius: 4px;
+  background-color: rgb(171, 126, 72);
+  color: white;
+  font: inherit;
+  padding: 0.5rem 1.5rem;
+  margin: 0 0 1rem 1rem;
+}
